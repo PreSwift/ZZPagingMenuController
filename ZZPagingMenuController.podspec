@@ -9,12 +9,13 @@
 
 Pod::Spec.new do |s|
 s.name             = "ZZPagingMenuController"
-s.version          = "2.3.0"
+s.version          = "1.0.0"
 s.summary          = "A paging view with customizable menu"
 s.homepage         = "https://github.com/PreSwift/ZZPagingMenuController"
 s.license          = 'MIT'
 s.author           = { "PreSwift" => "1778031092@qq.com" }
 s.source           = { :git => "https://github.com/PreSwift/ZZPagingMenuController.git", :tag => s.version.to_s }
+s.swift_version = '4.2'
 
 s.platform     = :ios, '9.0'
 s.requires_arc = true
