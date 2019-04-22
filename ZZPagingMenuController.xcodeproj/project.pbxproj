@@ -135,6 +135,7 @@
 				TargetAttributes = {
 					DC9C7778222FB15D00A68532 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -144,6 +145,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DC9C776F222FB15D00A68532;
 			productRefGroup = DC9C777A222FB15D00A68532 /* Products */;
@@ -326,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.zhou.ZZPagingMenuController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -351,7 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.zhou.ZZPagingMenuController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
