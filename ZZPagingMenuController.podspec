@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "ZZPagingMenuController"
-s.version          = "1.0.2"
+s.version          = "1.0.3"
 s.summary          = "A paging view with customizable menu"
 s.homepage         = "https://github.com/PreSwift/ZZPagingMenuController"
 s.license          = 'MIT'
