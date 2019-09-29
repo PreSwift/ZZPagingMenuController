@@ -8,6 +8,10 @@
 
 import UIKit
 
+func getKeyWindow() -> UIWindow? {
+    return UIApplication.shared.windows.filter {$0.isKeyWindow}.first
+}
+
 open class PagingViewController: UIViewController {
     public let controllers: [UIViewController]
     public internal(set) var currentViewController: UIViewController!

@@ -229,7 +229,7 @@ open class MenuItemView: UIView {
         let width: CGFloat
         switch menuOptions.displayMode {
         case .segmentedControl:
-            if let windowWidth = UIApplication.shared.keyWindow?.bounds.size.width {
+            if let windowWidth = getKeyWindow()?.bounds.size.width {
                 width = windowWidth / CGFloat(menuOptions.itemsOptions.count)
             } else {
                 width = UIScreen.main.bounds.width / CGFloat(menuOptions.itemsOptions.count)
@@ -324,7 +324,7 @@ extension MenuItemView {
     }
     
     fileprivate var maxWindowSize: CGFloat {
-        return UIApplication.shared.keyWindow?.bounds.width ?? UIScreen.main.bounds.width
+        return getKeyWindow()?.bounds.width ?? UIScreen.main.bounds.width
     }
 }
 
